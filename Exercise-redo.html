@@ -1,0 +1,149 @@
+<html>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <head> 
+                <style>
+                body{font-family: Verdana, Geneva, Tahoma, sans-serif;}
+
+                .nav {
+                    overflow: hidden;
+                    border: 1px solid #ccc;
+                    background-color: #d1d1d1
+                    
+                }
+                .nav button {
+                    background-color: inherit;
+                    float: left;
+                    border: none;
+                    outline: none;
+                    padding: 25px 20px;
+                    transition: 0.3s;
+                    font-size: 18px;
+                }
+                .nav button:hover {
+                    background-color: #eee;
+                }
+                .nav button:active{
+                    background-color: #ddd;
+                }
+
+                .container{
+                    
+                    padding: 5px 12px;
+                    padding-top: 20px;
+                    border-top: none;
+                    
+                }
+                .footer{
+                    font-size: 18px;
+                    color: white;
+                    word-spacing: 10px;
+                    background-color: rgb(145, 144, 144);
+                }
+                </style>
+        
+            
+    </head>
+    <body>
+
+            <div class="nav">
+                    <button class="nav">Home</button>
+                    <button class="nav active">Products</button>
+                    <button class="nav">About Us</button>
+                </div>
+
+        
+        <div id="Gender" class="container">
+            <div class="row">
+                <div class="col-sm">
+                    <div class="list-group">
+                    
+                    <button class="list-group-item text-left active">Men</button>
+                    <button class="list-group-item text-left">Women</button>
+                    <button class="list-group-item text-left">Boys</button>
+                    <button class="list-group-item text-left">Girls</button>
+                    <button class="list-group-item text-left">Customize</button>
+                    </div>
+                </div>
+                <div class="col-sm-9">
+                    <h3>Shoes</h3>
+                
+
+                  <div id="Styles" class="col-sm">
+            <table class="table table-striped">
+                    <thead class="thead-dark">
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Category</th>
+                        <th scope="col"></th>   
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Running</td>
+                        <td> <button type="Select" class="btn btn-primary btn-sm" onclick="Running()">Select</button></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>Basketball</td>
+                        <td> <button type="Select" class="btn btn-primary btn-sm" onclick="Basketball()">Select</button></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td>Soccer</td>
+                        <td> <button type="Select" class="btn btn-primary btn-sm" onclick="Soccer()">Select</button></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">4</th>
+                        <td>Training & Gym</td>
+                        <td> <button type="Select" class="btn btn-primary btn-sm" onclick="Training()">Select</button></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">5</th>
+                        <td>Sportswear</td>
+                        <td> <button type="Select" class="btn btn-primary btn-sm" onclick="Sportswear()">Select</button></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">6</th>
+                        <td>Jordan</td>
+                        <td> <button type="Select" class="btn btn-primary btn-sm" onclick="Jordan()">Select</button></td>
+                    </tr>
+                    </tbody>
+                  </table> 
+                </div>
+            </div>
+                    
+                
+                
+                </div>
+            </div>
+            <footer class="footer mt-auto py-3">
+            <div class="container">
+                <a href="#" class="footer">Home</a>
+                <a href="#" class="footer">Products</a>
+                <a href="#" class="footer">About Us</a>
+
+                </div>
+            </footer>
+            
+           
+                <script>
+                function Running() {alert("You have selected category: Running" );}
+                function Basketball() {alert("You have selected category: Basketball" );}
+                function Soccer() {alert("You have selected category: Soccer" );}
+                function Training() {alert("You have selected category: Training" );}
+                function Sportswear() {alert("You have selected category: Sportswear" );}
+                function Jordan() {alert("You have selected category: Jordan" );}
+                </script>
+    </body>
+
+    
+        
+
+
+    
+
+    
+</html>
